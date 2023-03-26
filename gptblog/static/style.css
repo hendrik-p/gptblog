@@ -1,0 +1,32 @@
+/* Set up the columns */
+.left, .main, .right {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Set the width of the left and right columns */
+.left, .right {
+  flex-basis: calc((100% - 750px)/6);
+  max-width: calc((100% - 750px)/6);
+}
+
+/* Set the width of the main content column */
+.main {
+  flex-basis: 66.66%;
+  max-width: 66.66%;
+}
+
+/* Add some styles to make the columns stand out */
+.left {
+  background-color: #ddd;
+}
+
+.main {
+  background-color: #eee;
+}
+
+.right {
+  background-color: #ddd;
+}
+
